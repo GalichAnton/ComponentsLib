@@ -1,0 +1,8 @@
+.progress {
+  height: 5px;
+  background: linear-gradient(to right, #00c3ff, #ffff1c);
+  display: block;
+  position: fixed;
+  top: 0;
+  left:0;
+}
