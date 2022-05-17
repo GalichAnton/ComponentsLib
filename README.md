@@ -1,2 +1,2 @@
-# Starter pack React/Ts app
+# Lib of my custom UI components and hooks
 
