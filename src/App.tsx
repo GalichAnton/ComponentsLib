@@ -1,5 +1,6 @@
 import "./App.css";
-import DynamicPagination from "./components/DynamicPagination/DynamicPagination";
+// import DynamicPagination from "./components/DynamicPagination/DynamicPagination";
+import SplitWrapper from "./components/SplitImage/SplitWrapper";
 // import ProgressBar from "./components/ProgressBar/ProgressBar";
 // import { makeTableData } from "./components/Virtualize/Custom/utils";
 // import Virtualize from "./components/Virtualize/Custom/Virtualize";
@@ -11,7 +12,8 @@ function App() {
       {/* <ProgressBar />*/}
       {/* <Virtualize data={data} visibleRows={5} rowHeight={40} />*/}
       {/* <VirtualizeWithLib />*/}
-      <DynamicPagination />
+      {/* <DynamicPagination />*/}
+      <SplitWrapper />
     </div>
   );
 }
