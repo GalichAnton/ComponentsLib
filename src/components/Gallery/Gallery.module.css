@@ -1,0 +1,92 @@
+.gallery{
+  background: #357EFE;
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  height: 400px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.slide{
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.left{
+  flex: 1;
+  padding: 0 100px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 140%;
+  color: white;
+  margin-bottom: 50px;
+}
+.name{
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 140%;
+  color: white;
+}
+.job{
+  font-size: 17px;
+  line-height: 140%;
+  color: white;
+}
+
+.arrow {
+  width: max-content;
+  height: max-content;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: none;
+  padding: 0;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+.arrow:hover{
+  opacity: 1;
+}
+.arrow img {
+  width: 40px;
+  height: 40px;
+}
+
+.arrowLeft {
+  left : 24px;
+  top: calc(50% - 20px);
+  transform: rotate(-90deg);
+}
+.arrowRight {
+  right: 24px;
+  top: calc(50% - 20px);
+  transform: rotate(90deg);
+}
+
+.fade-out{
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
