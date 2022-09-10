@@ -4,11 +4,13 @@ import { ChangeEvent, useState } from "react";
 
 import black from "./assets/black.jpg";
 import red from "./assets/red.jpg";
-import Gallery from "./components/Gallery/Gallery";
+// import Gallery from "./components/Gallery/Gallery";
 import { IReview } from "./components/Gallery/Gallery.props";
-import { useDebounce } from "./hooks/DebounceThrottle/useDebounce";
+// import InfiniteMenu from "./components/InfiniteMenu/InfiniteMenu";
+// import { useDebounce } from "./hooks/DebounceThrottle/useDebounce";
 import { useThrottle } from "./hooks/DebounceThrottle/useThrottle";
-import { useLocalStorageState } from "./hooks/Storage/useLocalStorageState";
+// import { useLocalStorageState } from "./hooks/Storage/useLocalStorageState";
+// import Preloader from "./components/Preloader/Preloader";
 // import SplitWrapper from "./components/SplitImage/SplitWrapper";
 // import ProgressBar from "./components/ProgressBar/ProgressBar";
 // import { makeTableData } from "./components/Virtualize/Custom/utils";
@@ -48,7 +50,9 @@ function App() {
       {/* <DynamicPagination />*/}
       {/* <SplitWrapper />*/}
       {/* <Gallery reviews={reviews} />*/}
-      <input value={value} onChange={(e) => handleChange(e)} />
+      {/* <input value={value} onChange={(e) => handleChange(e)} />*/}
+      {/* <InfiniteMenu />*/}
+      {/* <Preloader/>*/}
     </div>
   );
 }
